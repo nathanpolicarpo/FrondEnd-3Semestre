@@ -1,0 +1,11 @@
+{
+    "usuarios": [
+        {"id":1,"nome":"Nathan Policarpo","ëmail":"nathan@gmail.com","ïdade":19}, 
+        {"id":2,"nome":"Igor adami","ëmail":"igor@gmail.com","ïdade":23} 
+    ],
+    "frutas": [],
+    "jogos":[],
+    "imc" : [
+        
+    ]
+}
