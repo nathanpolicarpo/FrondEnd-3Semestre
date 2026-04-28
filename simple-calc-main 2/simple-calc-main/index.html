@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body onload="carregarDados()">
     <div class="page">
 
         <form action="" class="calc">
             <h1 class="calc__title">Simple Calc</h1>
             <input class="calc__field" autocomplete="off" type="number" id="n1" placeholder="Primeiro Número">
-            <input class="calc__field" autocomplete="off" type="number" id="n2" placeholder="Primeiro Número">
+            <input class="calc__field" autocomplete="off" type="number" id="n2" placeholder="Segundo Número">
 
             <select class="calc__field calc__select" id="operacao">
                 <option value="">Selecione</option>
@@ -29,21 +29,9 @@
 
             <span class="calc__result" id="resultado">33.29</span>
         </form>
-
-        <section class="data" id="Resultado">
-            <tr>
-                <td>Primeiro Numero:</td>
-                <td>Segundo Numero:</td>
-                <td>Operação:</td>
-                <td>Resultado:</td>
-            </tr>
+       
+        <section class="data" id="cadastro">
             
-        <article class="data__card-result">
-            <span><strong>Primeiro Número:</strong> 50</span>
-            <span><strong>Segundo Número:</strong> 50</span>
-            <span><strong>Operação:</strong> soma</span>
-            <span><strong>Resultado:</strong> 100</span>
-        </article>
     
     </section>
     </div>
